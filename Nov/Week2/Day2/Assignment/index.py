@@ -74,6 +74,26 @@
 #     print("Zero")
 
 # 7. Write a program to create a simple calculator using `if-elif-else`.
+# x = 20
+# y = 30
+
+# operator = input("Enter operator (+, -, *, /): ")
+
+# if operator == "+":
+#     print("Addition =", x + y)
+
+# elif operator == "-":
+#     print("Subtraction =", x - y)
+
+# elif operator == "*":
+#     print("Multiplication =", x * y)
+
+# elif operator == "/":
+#         print("Division =", x / y)
+
+# else:
+#     print("Invalid")
+
 
 
 ## Loops
@@ -113,6 +133,7 @@
 # 8. Calculate the sum of numbers from 1 to 10.
 
 
+
 # 9. Print the following pattern:
 # 1
 # 2
@@ -128,3 +149,7 @@
 # ***
 # ****
 # *****
+# for i in range(1, 6):
+#     for j in range(i):
+#         print("*", end="")
+#     print()
