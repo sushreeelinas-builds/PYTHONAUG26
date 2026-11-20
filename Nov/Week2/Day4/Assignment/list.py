@@ -35,7 +35,6 @@
 # print("smallest no is :",smallest)
     
     
-    
 
 # 4. Count how many times a particular number appears in a list.
 # n=[10,20,30,40,50,60,10,20,10]
@@ -71,7 +70,6 @@
 #         largest=i
         
 #     elif i>second_largest and i!=largest :
-        
 #         second_largest=i
         
 # print("largest no. is :",largest)
@@ -111,7 +109,6 @@
 # 9. Find the common elements between two lists without using intersection().
 # a=[10,20,30,40,50,60]
 # b=[50,60,70,80,90,100]
-
 # common=[]
 
 # for i in a:

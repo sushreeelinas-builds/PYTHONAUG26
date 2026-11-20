@@ -55,13 +55,52 @@
 
 
 #7. Find the union of two sets without using union().
-a = {10, 20, 30, 40, 50}
-b = {30, 40, 50, 60, 70}
+# a = {10, 20, 30, 40, 50}
+# b = {30, 40, 50, 60, 70}
+# union = set()
 
+# for i in a:
+#     union.add(i)
 
+# for i in b:
+#     union.add(i)
 
+# print("union :", union)
 
 
 #8. Check whether two sets are equal without using the == operator.
+
+
+
 #9. Find the elements that are present in exactly one of three sets.
+# a = {10, 20, 30, 40}
+# b = {30, 40, 50, 60}
+# c = {40, 60, 70, 80}
+# result = set()
+
+# for i in a:
+#     if i not in b and i not in c:
+#         result.add(i)
+
+# for i in b:
+#     if i not in a and i not in c:
+#         result.add(i)
+
+# for i in c:
+#     if i not in a and i not in b:
+#         result.add(i)
+
+# print("Elements present in exactly one set:", result)
+
+
+
 #10. Find the common characters between two strings using sets.
+# a = "Elina"
+# b = "Sahoo"
+# common = set()
+
+# for i in a:
+#     if i in b:
+#         common.add(i)
+
+# print("Common characters:", common)
