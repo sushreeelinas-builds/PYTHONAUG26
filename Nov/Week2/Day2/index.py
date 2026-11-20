@@ -74,7 +74,7 @@
 
 
 #Python Decision-Making Statements
-score = 100
+# score = 100
 
 # if score>=30:
 #     print("Pass")

@@ -80,8 +80,46 @@
         
 
 # 7. Remove duplicate elements from a list without using set().
-
+# n=[20,30,40,20,40,50,20,60,70]
+# list=[]
+ 
+# for i in n:
+#     if i  not in list:
+#         list.append(i)
+        
+# print(list)
+        
 
 # 8. Separate positive, negative and zero values into three different lists.
+# n=[10,-5,0,6,30,-15,20,33,-75]
+# positive=[]
+# negative=[]
+# zero=[]
+
+# for i in n:
+#     if i>0:
+#         positive.append(i)
+#     elif i<0:
+#         negative.append(i)
+#     else:
+#         zero.append(i)
+        
+# print("Positive :", positive)
+# print("Negative :",negative)
+# print("Zero :", zero)
+
 # 9. Find the common elements between two lists without using intersection().
+# a=[10,20,30,40,50,60]
+# b=[50,60,70,80,90,100]
+
+# common=[]
+
+# for i in a:
+#     if i in b:
+#         common.append(i)
+        
+# print("Common element :",common)
+
+
 # 10. Write a function to check whether a list is a palindrome.
+
